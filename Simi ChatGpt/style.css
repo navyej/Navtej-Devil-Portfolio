@@ -151,4 +151,50 @@ body{
 .loading{
     filter: drop-shadow(2px 2px 2px black);
 }
+@media only screen and (max-width:600px)
+{
+    .container
+    {
+        gap:20px;
+        padding-top: 120px;
+    }
+    .ai-img
+    {
+     height: 57px;
+    width: 60px;
+    color: white;   
+    }
+    .prompt-area{
+    bottom: 50px;
+    }
+    .prompt{
+    width: 73%;
+    height: 50%;
+    padding: 20px;
+    font-size: 20px;
+    font-family: cursive;
+    border-radius: 30px 0px 0px 30px;
+    background: linear-gradient(to right,rgb(21, 145, 207),rgb(201, 41, 116));
+    border: none;
+    box-shadow: 2px 2px 10px rgb(21, 145, 207),2px 2px 10px rgb(201, 41, 116);
+    font-size: 18px;
+    color:white
+    }
+    .btn{
+    width: 10%;
+    height: 55%;
+    }
+    .user-chat-box{
+
+    width: 99%;
+    padding: 20px;
+    font-size: 16px;
+}
+    .ai-chat-box{
+    width: 99%;
+    padding: 20px;
+    font-size: 16px;
+   
+}
+}
 
